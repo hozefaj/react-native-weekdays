@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "new-cap": [2, {
+      "capIsNewExceptions": [
+        "Immutable.Map",
+        "Immutable.List",
+        "DragDropContext",
+        "DragSource",
+        "DropTarget",
+      ]
+    }]
+  }
+}
